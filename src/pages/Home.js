@@ -15,7 +15,7 @@ const Home = ({ content }) => {
   return (
     <div className={cssClass}>
       <Nav content={content.nav} type={uiConfig.nav} />
-      <Hero content={content.hero} />
+      <Hero content={content.main} />
       <Quote content={content.quote} type={uiConfig.quote} />
       <Menu content={content.menu} />
       <Challenge content={content.challenge} />

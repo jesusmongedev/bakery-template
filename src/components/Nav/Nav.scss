@@ -19,16 +19,21 @@
   }
 
   &-list {
-    padding: 0;
-    grid-column: 1/-1;
     justify-content: center;
     list-style: none;
-    transform: translateX(-100vw);
-    transition: transform 0.3s;
-    position: fixed;
-    top: 12%;
-    background-color: rgba($color: black, $alpha: 0.75);
+    @media screen and (max-width: $l) {
+      & {
+        padding: 0.75rem 1.25rem;
+        position: fixed;
+        top: 12%;
+        transform: translateX(-100vw);
+        transition: transform 0.3s;
+        background-color: rgba($color: black, $alpha: 0.75);
+      }
+    }
+
     @include for-size(l) {
+      grid-column: 1/-1;
       position: initial;
       display: flex;
     }
@@ -45,7 +50,7 @@
     &:active,
     &:focus,
     &:hover {
-      transform: translateY(-5px);
+      transform: translateY(-4px);
       border-bottom: 3px solid $color-primary;
     }
 

@@ -1,6 +1,12 @@
 {
+  "main": {
+    "title": "Bakery",
+    "subtitle": "Enrich every moment",
+    "cta": "Ver menú",
+    "icon": "light-hamburger.svg"
+  },
   "nav": {
-    "icon": "nav",
+    "icon": "nav.svg",
     "items": [
       {
         "label": "Home",
@@ -24,12 +30,6 @@
       }
     ]
   },
-  "hero": {
-    "title": "Steam",
-    "subtitle": "Hamburgesas artesanales",
-    "cta": "Ver menú",
-    "icon": "lightHamburger"
-  },
   "quote": {
     "title": "Hamburguesas de pura carne con el toque secreto."
   },
@@ -38,16 +38,16 @@
     "cta": "Ver mi pedido (2)",
     "items": [
       {
-        "icon": "hamburger"
+        "icon": "hamburger.svg"
       },
       {
-        "icon": "fries"
+        "icon": "fries.svg"
       },
       {
-        "icon": "soda"
+        "icon": "soda.svg"
       },
       {
-        "icon": "iceCream"
+        "icon": "ice-cream.svg"
       }
     ],
     "products": [
@@ -73,13 +73,13 @@
     "subtitle": "Cuéntanos en redes sociales lo que mas te gusta de steam y obtén 15% de descuento.",
     "social": [
       {
-        "icon": "facebook"
+        "icon": "facebook.svg"
       },
       {
-        "icon": "instagram"
+        "icon": "instagram.svg"
       },
       {
-        "icon": "tiktok"
+        "icon": "tiktok.svg"
       }
     ]
   },

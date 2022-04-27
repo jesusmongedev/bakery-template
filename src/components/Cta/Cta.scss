@@ -66,12 +66,9 @@
     &-fixed {
       position: fixed;
       top: 2.5%;
-    }
-  }
-
-  & {
-    @include for-size(l) {
-      display: none;
+      @include for-size(l) {
+        display: none;
+      }
     }
   }
 }
