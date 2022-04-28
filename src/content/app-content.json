@@ -3,7 +3,7 @@
     "title": "Bakery",
     "subtitle": "Enrich every moment",
     "cta": "Ver menú",
-    "icon": "light-hamburger.svg"
+    "icon": "bakery.svg"
   },
   "nav": {
     "icon": "nav.svg",
@@ -31,7 +31,7 @@
     ]
   },
   "quote": {
-    "title": "Hamburguesas de pura carne con el toque secreto."
+    "title": "Postres con el sabor de casa hechos con amor."
   },
   "menu": {
     "title": "Menú",
