@@ -38,13 +38,13 @@
     "cta": "Ver mi pedido (2)",
     "items": [
       {
-        "icon": "hamburger.svg"
+        "icon": "cupcake.svg"
       },
       {
-        "icon": "fries.svg"
+        "icon": "cookies.svg"
       },
       {
-        "icon": "soda.svg"
+        "icon": "cake.svg"
       },
       {
         "icon": "ice-cream.svg"
@@ -52,18 +52,18 @@
     ],
     "products": [
       {
-        "title": "Steam sencilla",
-        "subtitle": "1 lb de res con queso, verdura y pan.",
+        "title": "Brownie",
+        "subtitle": "Cacao 100% natural, crocante y esponjoso.",
         "price": "$10.00"
       },
       {
-        "title": "Steam doble",
-        "subtitle": "1 lb de res con queso, verdura y pan.",
+        "title": "Cheesecake",
+        "subtitle": "Pastel de queso, es un postre clásico de la cocina americana.",
         "price": "$15.00"
       },
       {
-        "title": "Steam especial",
-        "subtitle": "1 lb de res, tocineta, queso, verdura y pan.",
+        "title": "Queso de Leche",
+        "subtitle": "También conocido como flan es un plato dulce tradicional muy rico.",
         "price": "$20.00"
       }
     ]

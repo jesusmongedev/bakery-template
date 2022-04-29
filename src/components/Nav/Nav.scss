@@ -28,7 +28,7 @@
         top: 12%;
         transform: translateX(-100vw);
         transition: transform 0.3s;
-        background-color: rgba($color: black, $alpha: 0.75);
+        background-color: rgba($color: $color-black, $alpha: 0.75);
       }
     }
 
