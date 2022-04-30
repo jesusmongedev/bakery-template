@@ -54,17 +54,26 @@
       {
         "title": "Brownie",
         "subtitle": "Cacao 100% natural, crocante y esponjoso.",
-        "price": "$10.00"
+        "price": "$10.00",
+        "label": "Add",
+        "image": "brownie.png",
+        "weight": 350
       },
       {
         "title": "Cheesecake",
         "subtitle": "Pastel de queso, es un postre clásico de la cocina americana.",
-        "price": "$15.00"
+        "price": "$15.00",
+        "label": "Add",
+        "image": "brownie.png",
+        "weight": 350
       },
       {
         "title": "Queso de Leche",
         "subtitle": "También conocido como flan es un plato dulce tradicional muy rico.",
-        "price": "$20.00"
+        "price": "$20.00",
+        "label": "Add",
+        "image": "brownie.png",
+        "weight": 350
       }
     ]
   },
