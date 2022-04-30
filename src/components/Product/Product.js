@@ -9,16 +9,19 @@ const Product = ({ content }) => {
   return (
     <div className={cssClass}>
       <img src={`images/${content.image}`} alt={content.title} />
-      <h4 className={`${cssClass}-title h4--dark`}>{content.title}</h4>
-      <p className={`${cssClass}-description`}>{content.subtitle}</p>
-      {/* <div className={`${cssClass}__right`}>
-        <span>{content.price}</span>
-        <p>{content.title}</p>
+      {/* <h4 className={`${cssClass}-title h4--dark`}>{content.title}</h4> */}
+      {/* <p className={`${cssClass}-description`}>{content.subtitle}</p> */}
+      <div className={`${cssClass}-description`}>
+        <div className={`${cssClass}-description__left`}>
+          <p>{content.price}</p>
+          <h4 className={`${cssClass}-title h4--dark`}>{content.title}</h4>
+        </div>
+        <div className={`${cssClass}-description__right`}>
+          <img src={`images/${content.info}`} alt="more information" />
+          <p>{content.weight}g</p>
+          <Cta type={uiConfig.cta} label={content.label} />
+        </div>
       </div>
-      <div className={`${cssClass}__right`}>
-        <p>{content.weight}g</p>
-      </div> */}
-      <Cta type={uiConfig.cta} label={content.label} />
     </div>
   )
 }

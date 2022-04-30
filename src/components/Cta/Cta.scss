@@ -9,8 +9,9 @@
   &--secondary {
     background-color: $color-primary;
     border: 3px solid $color-secondary;
+    font-size: $font-size-small;
     color: $color-black;
-    padding: 10px 20px;
+    border-radius: 8px;
 
     &:active,
     &:focus,
@@ -23,13 +24,13 @@
   }
 
   &--primary {
+    padding: 10px;
     font-family: $font-primary;
-    font-size: 25px;
   }
 
   &--secondary {
+    padding: 10px 20px;
     font-family: $font-secondary;
-    font-size: $font-size-small;
   }
 
   &--terciary,
