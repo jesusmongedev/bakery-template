@@ -6,17 +6,11 @@
 
   &-tabs {
     display: flex;
+    gap: 20px;
+    overflow-x: scroll;
     list-style: none;
     justify-content: center;
     padding: $padding-small 0;
-  }
-
-  &-item {
-    margin-right: 20px;
-
-    &:last-child {
-      margin-right: 0;
-    }
   }
 
   &-products {

@@ -19,9 +19,10 @@ const Product = ({ content }) => {
         <div className={`${cssClass}-description__right`}>
           <img src={`images/${content.info}`} alt="more information" />
           <p>{content.weight}g</p>
-          <Cta type={uiConfig.cta} label={content.label} />
         </div>
       </div>
+      <Cta type={uiConfig.cta} label={content.label} />
+      <Cta type={uiConfig.cta} label={content.labelSecondary} />
     </div>
   )
 }

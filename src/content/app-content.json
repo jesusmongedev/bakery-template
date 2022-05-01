@@ -55,7 +55,8 @@
         "title": "Brownie Delicioso",
         "subtitle": "Cacao 100% natural, crocante y esponjoso.",
         "price": "$10.00",
-        "label": "Add",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
         "image": "brownie.png",
         "weight": 350,
         "info": "information.svg"
@@ -64,7 +65,8 @@
         "title": "Cheesecake Delicioso",
         "subtitle": "Pastel de queso, es un postre clásico de la cocina americana.",
         "price": "$15.00",
-        "label": "Add",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
         "image": "cheesecake.png",
         "weight": 350,
         "info": "information.svg"
@@ -73,7 +75,8 @@
         "title": "Tiramisu Delicioso",
         "subtitle": "También conocido como flan es un plato dulce tradicional muy rico.",
         "price": "$20.00",
-        "label": "Add",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
         "image": "cake.png",
         "weight": 350,
         "info": "information.svg"

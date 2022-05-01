@@ -8,7 +8,7 @@ const Cta = ({ icon, iconType, type, label, handleMenuButton, action }) => {
   return (
     <a
       href={`#${action}`}
-      className={`${cssClass} ${cssClass}--${type} ${
+      className={`${cssClass} ${cssClass}--${type}  ${
         icon === 'nav.svg' ? `${cssClass}--${type}-fixed` : ''
       }`}
       onClick={handleMenuButton}

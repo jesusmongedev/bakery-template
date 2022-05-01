@@ -26,6 +26,22 @@
   &--primary {
     padding: 10px;
     font-family: $font-primary;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: $padding-x-small;
+    &:last-child {
+      background-color: $color-black;
+      border: 3px solid $color-primary;
+      color: $color-primary;
+      &:active,
+      &:focus,
+      &:hover {
+        background-color: $color-primary;
+        border: 3px solid $color-secondary;
+        color: $color-black;
+        transform: translateY(-5px);
+      }
+    }
   }
 
   &--secondary {
@@ -67,6 +83,7 @@
     &-fixed {
       position: fixed;
       top: 2.5%;
+      left: 16px;
       @include for-size(l) {
         display: none;
       }

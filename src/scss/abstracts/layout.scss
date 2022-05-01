@@ -42,6 +42,10 @@ $xl: 1440px;
 .grid {
   margin: 0 16px;
 
+  @include for-size(xs) {
+    margin: 0;
+  }
+
   @include for-size(m) {
     margin: 0 32px;
   }
