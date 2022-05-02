@@ -6,7 +6,7 @@
     "icon": "bakery.svg"
   },
   "nav": {
-    "icon": "nav.svg",
+    "icon": "bakery.svg",
     "items": [
       {
         "label": "Home",
@@ -52,7 +52,7 @@
     ],
     "products": [
       {
-        "title": "Brownie Delicioso",
+        "title": "Delicioso Brownie",
         "subtitle": "Cacao 100% natural, crocante y esponjoso.",
         "price": "$10.00",
         "label": "Agregar al carrito",
@@ -62,7 +62,7 @@
         "info": "information.svg"
       },
       {
-        "title": "Cheesecake Delicioso",
+        "title": "Rico Cheesecake",
         "subtitle": "Pastel de queso, es un postre clásico de la cocina americana.",
         "price": "$15.00",
         "label": "Agregar al carrito",
@@ -72,7 +72,7 @@
         "info": "information.svg"
       },
       {
-        "title": "Tiramisu Delicioso",
+        "title": "Sabroso Tiramisu",
         "subtitle": "También conocido como flan es un plato dulce tradicional muy rico.",
         "price": "$20.00",
         "label": "Agregar al carrito",
@@ -84,8 +84,8 @@
     ]
   },
   "challenge": {
-    "title": "#RetoSteam",
-    "subtitle": "Cuéntanos en redes sociales lo que mas te gusta de steam y obtén 15% de descuento.",
+    "title": "#RetoBakery",
+    "subtitle": "Cuéntanos en redes sociales lo que mas te gusta de bakery y obtén 15% de descuento.",
     "social": [
       {
         "icon": "facebook.svg"

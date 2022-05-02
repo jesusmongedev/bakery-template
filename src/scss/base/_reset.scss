@@ -1,5 +1,11 @@
 @use '../abstracts/index' as *;
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   background-color: $color-white;
   margin: 0;
@@ -18,4 +24,9 @@ a {
 img {
   max-inline-size: 100%;
   height: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
 }

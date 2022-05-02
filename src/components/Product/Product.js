@@ -17,7 +17,11 @@ const Product = ({ content }) => {
           <h4 className={`${cssClass}-title h4--dark`}>{content.title}</h4>
         </div>
         <div className={`${cssClass}-description__right`}>
-          <img src={`images/${content.info}`} alt="more information" />
+          <img
+            src={`images/${content.info}`}
+            alt="more information"
+            title="More information"
+          />
           <p>{content.weight}g</p>
         </div>
       </div>

@@ -17,12 +17,9 @@
     }
   }
 
-  &-items {
-    list-style: none;
-  }
-
-  &-social-item {
-    display: inline-block;
-    margin-right: 25px;
+  &-icons {
+    display: flex;
+    justify-content: center;
+    gap: $padding-x-small;
   }
 }

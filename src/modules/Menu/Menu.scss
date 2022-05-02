@@ -8,13 +8,12 @@
     display: flex;
     gap: 20px;
     overflow-x: scroll;
-    list-style: none;
+
     justify-content: center;
     padding: $padding-small 0;
   }
 
   &-products {
-    list-style: none;
     padding: 0;
   }
 
