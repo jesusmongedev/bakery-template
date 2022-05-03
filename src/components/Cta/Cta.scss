@@ -4,6 +4,7 @@
   color: $color-black;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+  font-weight: bold;
 
   &--primary,
   &--secondary {
@@ -45,7 +46,7 @@
   }
 
   &--secondary {
-    padding: 8px 16px;
+    padding: 12px 24px;
     font-family: $font-secondary;
   }
 

@@ -99,15 +99,23 @@
     ]
   },
   "contact": {
-    "title": "Contáctanos.",
+    "title": "Bakery®",
     "items": [
       {
-        "title": "Teléfono",
-        "subtitle": "2338617"
+        "title": "Conócenos",
+        "subtitle1": "Franquicias",
+        "subtitle2": "Clientes"
       },
       {
+        "title": "Productos",
+        "subtitle1": "Postres",
+        "subtitle2": "Cafetería"
+      },
+
+      {
         "title": "Dirección",
-        "subtitle": "cra 11 # 10 Sur"
+        "subtitle1": "cra 11 # 10 Sur",
+        "subtitle2": "02- 754 - 9584"
       }
     ]
   },
