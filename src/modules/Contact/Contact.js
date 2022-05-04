@@ -4,7 +4,7 @@ const Contact = ({ content }) => {
   const cssClass = 'Contact'
 
   return (
-    <div className={`${cssClass} grid`} id="contacto">
+    <div className={`${cssClass} `} id="contacto">
       <h3 className={`${cssClass}-title`}>{content.title}</h3>
       <div className={`${cssClass}-box`}>
         <ContactBox content={content.items} />

@@ -1,13 +1,16 @@
 @use '../../scss/abstracts/index' as *;
 
 .ContactBox {
-  border: 3px solid $color-secondary;
   padding: $padding-small 0 20px;
-
+  background-color: $color-black;
+  color: $color-white;
   @include for-size(m) {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: left;
+    &-block {
+      margin: 0;
+    }
   }
 
   &-block {

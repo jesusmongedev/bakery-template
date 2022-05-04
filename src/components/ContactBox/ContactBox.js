@@ -7,7 +7,7 @@ const ContactBox = ({ content }) => {
     return content.map((item, index) => {
       return (
         <li key={index} className={`${cssClass}-block`}>
-          <h4 className="h4--dark">{item.title}</h4>
+          <h4>{item.title}</h4>
           <p className={`${cssClass}-description`}>{item.subtitle1}</p>
           <p className={`${cssClass}-description`}>{item.subtitle2}</p>
         </li>

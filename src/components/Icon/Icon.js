@@ -1,5 +1,4 @@
 const Icon = ({ type, icon }) => {
-  console.log(icon)
   const cssClass = 'Icon'
 
   return (

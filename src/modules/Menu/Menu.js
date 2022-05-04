@@ -27,7 +27,6 @@ const Menu = ({ content }) => {
         {content.products.map((product, index) => (
           <li key={index} className={`${cssClass}-product`}>
             <Product content={product} />
-            {console.log(product)}
           </li>
         ))}
       </ul>

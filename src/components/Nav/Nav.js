@@ -1,8 +1,12 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import useScrollListener from '../../Hooks/useScrollListener'
 import Cta from '../Cta/Cta'
 
 const Nav = ({ content, type }) => {
   const [isOpen, setIsOpen] = useState(false)
+  const [navClassList, setNavClassList] = useState([])
+  const scroll = useScrollListener()
+  console.log(navClassList)
 
   const cssClass = 'Nav'
   const uiConfig = {
@@ -12,12 +16,21 @@ const Nav = ({ content, type }) => {
 
   const handleMenuButton = () => {
     setIsOpen((prevState) => !prevState)
-    console.log(isOpen)
   }
 
+  // update classlist of nav on scroll
+  useEffect(() => {
+    const _classList = []
+
+    if (scroll.y > 150 && scroll.y - scroll.lastY > 0)
+      _classList.push('nav-hidden')
+
+    setNavClassList(_classList)
+  }, [scroll.y, scroll.lastY])
+
   return (
-    <div className={`${cssClass} ${cssClass}--${type}`}>
-      <div className="grid">
+    <div className={`${cssClass} ${navClassList}  ${cssClass}--${type}`}>
+      <div className={`grid `}>
         <Cta
           type={uiConfig.cta}
           icon={content.icon}

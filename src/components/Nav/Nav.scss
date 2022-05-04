@@ -2,12 +2,16 @@
 @use '../../scss/abstracts/index' as *;
 
 .Nav {
-  left: 0;
   padding: 16px 0 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 3;
+  transition: transform 150ms ease-in-out;
+
+  &.nav-hidden {
+    transform: translateY(-500%);
+  }
 
   a {
     color: $color-black;
