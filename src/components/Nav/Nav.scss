@@ -1,8 +1,6 @@
-// @import '../../scss/base.scss';
 @use '../../scss/abstracts/index' as *;
 
 .Nav {
-  padding: 16px 0 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,7 +8,7 @@
   transition: transform 150ms ease-in-out;
 
   &.nav-hidden {
-    transform: translateY(-500%);
+    transform: translateY(-15vh);
   }
 
   a {
@@ -24,27 +22,30 @@
 
   &-list {
     justify-content: center;
+    background-color: rgba($color: $color-black, $alpha: 0.75);
 
-    @media screen and (max-width: $l) {
+    @media screen and (max-width: $m) {
       & {
         padding: 0.75rem 1.25rem;
         position: fixed;
         top: 12%;
         transform: translateX(-100vw);
         transition: transform 0.3s;
-        background-color: rgba($color: $color-black, $alpha: 0.75);
+      }
+      .Nav {
+        padding: 16px 0 0;
       }
     }
 
-    @include for-size(l) {
-      grid-column: 1/-1;
-      position: initial;
+    @include for-size(m) {
       display: flex;
+      gap: $padding-small;
+      align-items: center;
+      height: 4.8rem;
     }
   }
 
   &-item {
-    margin-right: $padding-small;
     font-family: $font-primary;
     font-size: $font-size-small;
     font-weight: 300;
@@ -54,12 +55,7 @@
     &:active,
     &:focus,
     &:hover {
-      transform: translateY(-4px);
       border-bottom: 3px solid $color-primary;
-    }
-
-    &:last-child {
-      margin-right: 0;
     }
   }
 }

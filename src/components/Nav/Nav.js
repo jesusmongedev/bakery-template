@@ -6,7 +6,6 @@ const Nav = ({ content, type }) => {
   const [isOpen, setIsOpen] = useState(false)
   const [navClassList, setNavClassList] = useState([])
   const scroll = useScrollListener()
-  console.log(navClassList)
 
   const cssClass = 'Nav'
   const uiConfig = {
@@ -30,7 +29,7 @@ const Nav = ({ content, type }) => {
 
   return (
     <div className={`${cssClass} ${navClassList}  ${cssClass}--${type}`}>
-      <div className={`grid `}>
+      <div>
         <Cta
           type={uiConfig.cta}
           icon={content.icon}
