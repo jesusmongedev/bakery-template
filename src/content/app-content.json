@@ -38,19 +38,23 @@
     "cta": "Ver mi pedido (2)",
     "items": [
       {
-        "icon": "cupcake.svg"
+        "icon": "cupcake.svg",
+        "type": "cupcakes"
       },
       {
-        "icon": "cookies.svg"
+        "icon": "cookies.svg",
+        "type": "cookies"
       },
       {
-        "icon": "cake.svg"
+        "icon": "cake.svg",
+        "type": "cakes"
       },
       {
-        "icon": "ice-cream.svg"
+        "icon": "ice-cream.svg",
+        "type": "iceCream"
       }
     ],
-    "products": [
+    "cakes": [
       {
         "title": "Delicioso Brownie",
         "subtitle": "Cacao 100% natural, crocante y esponjoso.",
@@ -78,6 +82,102 @@
         "label": "Agregar al carrito",
         "labelSecondary": "Comprar ahora",
         "image": "cake.png",
+        "weight": 350,
+        "info": "information.svg"
+      }
+    ],
+    "cookies": [
+      {
+        "title": "Deliciosas Galletas",
+        "subtitle": "Cacao 100% natural, crocante y esponjoso.",
+        "price": "$10.00",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
+        "image": "cookie1.png",
+        "weight": 350,
+        "info": "information.svg"
+      },
+      {
+        "title": "Ricas galletas",
+        "subtitle": "Pastel de queso, es un postre clásico de la cocina americana.",
+        "price": "$15.00",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
+        "image": "cookie2.png",
+        "weight": 350,
+        "info": "information.svg"
+      },
+      {
+        "title": "Sabrosas galletas",
+        "subtitle": "También conocido como flan es un plato dulce tradicional muy rico.",
+        "price": "$20.00",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
+        "image": "cookie3.png",
+        "weight": 350,
+        "info": "information.svg"
+      }
+    ],
+    "cupcakes": [
+      {
+        "title": "Delicioso cupcakes",
+        "subtitle": "Cacao 100% natural, crocante y esponjoso.",
+        "price": "$10.00",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
+        "image": "cupcake1.png",
+        "weight": 350,
+        "info": "information.svg"
+      },
+      {
+        "title": "Rico cupcakes",
+        "subtitle": "Pastel de queso, es un postre clásico de la cocina americana.",
+        "price": "$15.00",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
+        "image": "cupcake2.png",
+        "weight": 350,
+        "info": "information.svg"
+      },
+      {
+        "title": "Sabroso cupcakes",
+        "subtitle": "También conocido como flan es un plato dulce tradicional muy rico.",
+        "price": "$20.00",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
+        "image": "cupcake3.png",
+        "weight": 350,
+        "info": "information.svg"
+      }
+    ],
+    "iceCream": [
+      {
+        "title": "Delicioso helado",
+        "subtitle": "Cacao 100% natural, crocante y esponjoso.",
+        "price": "$10.00",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
+        "image": "iceCream1.png",
+        "weight": 350,
+        "info": "information.svg"
+      },
+      {
+        "title": "Rico helado",
+        "subtitle": "Pastel de queso, es un postre clásico de la cocina americana.",
+        "price": "$15.00",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
+        "image": "iceCream2.png",
+        "weight": 350,
+        "info": "information.svg"
+      },
+      {
+        "title": "Sabroso helado",
+        "subtitle": "También conocido como flan es un plato dulce tradicional muy rico.",
+        "price": "$20.00",
+        "label": "Agregar al carrito",
+        "labelSecondary": "Comprar ahora",
+        "image": "iceCream3.png",
         "weight": 350,
         "info": "information.svg"
       }
